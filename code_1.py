@@ -1,5 +1,6 @@
 import random
 
+
 # Game world - rooms and their properties
 rooms = {
     'Beginner river': {
@@ -201,10 +202,10 @@ def main():
     # Game end messages
     print("\n" + "="*50)
     if game_win:
-        print("youhou ! CONGRATULATIONS! YOU WON!")
+        print("🎉 CONGRATULATIONS! YOU WON! 🎉")
         print("You beacame the best and completed your adventure!")
     elif game_lose:
-        print(":/ GAME OVER :/")
+        print("💀 GAME OVER 💀")
         print("Your OVERWORKED yourself....")
    
     print(f"\nFinal Score: ???")
